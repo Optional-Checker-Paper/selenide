@@ -13,6 +13,7 @@ public class AncestorRuleEngine {
     new AncestorWithAttributeAndValueRule()
   );
 
+  @SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
   public AncestorResult process(String selector, int index) {
     return rules
       .stream()
