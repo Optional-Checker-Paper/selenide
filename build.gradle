@@ -9,6 +9,14 @@ plugins {
 allprojects {
   group = 'com.codeborne'
   version = '6.18.0-SNAPSHOT'
+  apply plugin: "com.github.spotbugs"
+spotbugs {
+     ignoreFailures = true
+     toolVersion = '4.8.2'
+     effort = 'default'
+     reportLevel = 'default'
+     reportsDir = file("$buildDir/spotbugs")
+ }
 }
 
 subprojects {
@@ -26,3 +34,4 @@ apply from: 'gradle/tests.gradle'
 apply from: 'gradle/javadoc.gradle'
 
 defaultTasks 'check', 'publishToMavenLocal'
+
