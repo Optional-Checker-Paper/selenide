@@ -55,4 +55,6 @@ subprojects {
       property 'sonar.jacoco.reportPaths', "$project.buildDir/jacoco/test.exec, $project.buildDir/jacoco/chrome_headless.exec, $project.buildDir/jacoco/firefox_headless.exec"
     }
   }
+
+  tasks.withType(Javadoc).all { enabled = false }
 }

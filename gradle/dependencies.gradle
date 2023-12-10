@@ -26,6 +26,7 @@ subprojects {
         snapshotsOnly()
       }
     }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
   }
 
   dependencies {
@@ -54,4 +55,6 @@ subprojects {
     api("org.slf4j:slf4j-api:$slf4jVersion")
     testRuntimeOnly("org.slf4j:slf4j-simple:$slf4jVersion")
   }
+
+  tasks.withType(Javadoc).all { enabled = false }
 }

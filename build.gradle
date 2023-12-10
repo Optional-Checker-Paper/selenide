@@ -30,11 +30,17 @@ subprojects {
      ]
      excludeTests = true
   }
+  ext.checkerFrameworkVersion = '3.41.1-SNAPSHOT'
   dependencies {
-    checkerFramework 'org.checkerframework:checker:3.40.0'
-    implementation 'org.checkerframework:checker-qual:3.40.0'
+    compileOnly "org.checkerframework:checker-qual:${checkerFrameworkVersion}"
+    testCompileOnly "org.checkerframework:checker-qual:${checkerFrameworkVersion}"
+    checkerFramework "org.checkerframework:checker:${checkerFrameworkVersion}"
+  }
+  configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
   }
   javadoc.options.addStringOption('Xdoclint:none', '-quiet')
+  tasks.withType(Javadoc).all { enabled = false }
 }
 
 apply from: 'gradle/compilation.gradle'
