@@ -25,8 +25,10 @@ subprojects {
     excludeTests = true
     extraJavacArgs = [
       '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
-      '-AassumePure'
-    ]
+      '-AassumePure',
+      '-AwarnUnneededSuppressions'
+     ]
+     excludeTests = true
   }
   dependencies {
     checkerFramework 'org.checkerframework:checker:3.40.0'
