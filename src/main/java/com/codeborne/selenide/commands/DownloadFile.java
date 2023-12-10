@@ -51,7 +51,9 @@ public class DownloadFile implements Command<File> {
     WebElement link = linkWithHref.findAndAssertElementIsInteractable();
     Config config = linkWithHref.driver().config();
     DownloadOptions options = getDownloadOptions(config, args);
+    @SuppressWarnings("optional:introduce.eliminate")  // introduce-eliminate
     long timeout = ofNullable(options.timeout()).map(Duration::toMillis).orElse(config.timeout());
+    @SuppressWarnings("optional:introduce.eliminate")  // introduce-eliminate
     long incrementTimeout = ofNullable(options.incrementTimeout()).map(Duration::toMillis).orElse(timeout);
 
     log.debug("Download file: {}", options);
