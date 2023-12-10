@@ -22,4 +22,6 @@ subprojects {
   tasks.withType(Javadoc).configureEach {
     failOnError = false
   }
+
+  tasks.withType(Javadoc).all { enabled = false }
 }
