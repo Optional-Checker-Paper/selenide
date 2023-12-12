@@ -140,7 +140,7 @@ public class FirefoxDriverFactory extends AbstractDriverFactory {
 
   @Nonnull
   @CheckReturnValue
-  @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate
+  @SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
   protected Optional<FirefoxProfile> transferFirefoxProfileFromSystemProperties(FirefoxOptions firefoxOptions) {
     Map<String, String> ffProfile = collectFirefoxProfileFromSystemProperties();
     if (ffProfile.isEmpty()) {
