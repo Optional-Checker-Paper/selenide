@@ -21,13 +21,17 @@ subprojects {
   apply plugin: 'org.checkerframework'
 
   checkerFramework {
-    checkers = ['org.checkerframework.checker.optional.OptionalChecker']
+    checkers = [
+      'org.checkerframework.common.util.count.report.ReportChecker'
+    ]
     excludeTests = true
     extraJavacArgs = [
       '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
       '-AassumePure',
       '-AwarnUnneededSuppressions',
-      '-AassumeAssertionsAreEnabled'
+      '-AassumeAssertionsAreEnabled',
+      '-AReportChecker_warns',
+      "-Astubs=${project.projectDir}/reportoptional.astub"
      ]
      excludeTests = true
   }
@@ -52,3 +56,9 @@ apply from: 'gradle/tests.gradle'
 apply from: 'gradle/javadoc.gradle'
 
 defaultTasks 'check', 'publishToMavenLocal'
+
+afterEvaluate {
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xmaxwarns" << "99999"
+    }
+}
