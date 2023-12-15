@@ -1,23 +1,25 @@
 
 [1AConfiguration on demand is an incubating feature.
 
-[1m> Configure project :[m
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [107ms][m[38D[1B[1m> root project[m[14D[1B[2A[0K
+[1m> Configure project :[m[0K
 The 'sonarqube' task depends on compile tasks. This behavior is now deprecated and will be removed in version 5.x. To avoid implicit compilation, set property 'sonar.gradle.skipCompile' to 'true' and make sure your project is compiled, before analysis has started.
 The 'sonar' task depends on compile tasks. This behavior is now deprecated and will be removed in version 5.x. To avoid implicit compilation, set property 'sonar.gradle.skipCompile' to 'true' and make sure your project is compiled, before analysis has started.
-
-
-[2A[1m<[0;32;1m=========[0;39;1m----> 69% CONFIGURING [105ms][m[39D[1B[1m> :modules:junit4[m[17D[1B[2APath for java installation '/Library/Java/JavaVirtualMachines/azul-15.0.5/Contents/Home' (IntelliJ IDEA) does not contain a java executable[0K
+[0K
+[0K
+[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [207ms][m[40D[1B> IDLE[6D[1B[2APath for java installation '/Library/Java/JavaVirtualMachines/azul-15.0.5/Contents/Home' (IntelliJ IDEA) does not contain a java executable[0K
 [1B[0K
+[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [305ms][m[40D[1B[1m> Discovering toolchains > Detecting local java toolchains[m[58D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [403ms][m[40D[1B[1m> Extracting toolchain metadata from '/Library/Java/JavaVirtualMachin[m[79D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [505ms][m[40D[1B[1m> Extracting toolchain metadata from '/Library/Java/JavaVirtualMachines/zulu-17[m[79D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [607ms][m[40D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [706ms][m[40D[1B[1m> Extracting toolchain metadata from '/Library/Java/JavaVirtualMachines/zulu-18[m[79D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [805ms][m[40D[1B[1m> Extracting toolchain metadata from '/.gradle/jdks/eclipse_adoptium-[m[79D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [906ms][m[40D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[0K[37D[1B[1m> Extracting toolchain metadata from '/Library/Java/JavaVirtualMachin[m[79D[1B[1A> IDLE[0K[6D[1B
 
 
-
-[5A[1m<[0;32;1m==[0;39;1m-----------> 19% EXECUTING [206ms][m[37D[1B[1m> :modules:full-screenshot:processResources[m[43D[1B[1m> :statics:sourcesJar[m[21D[1B[1m> :modules:core:compileJava > Resolve dependencies of :modules:core:compileClas[m[79D[1B[1m> :modules:clear-with-shortcut:processResources[m[47D[1B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [305ms][m[37D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[2B> IDLE[0K[6D[1B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [401ms][m[37D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [505ms][m[37D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [605ms][m[37D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [704ms][m[37D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [804ms][m[37D[3B[1m> :modules:core:compileJava > Resolve files of :modules:core:compileClasspath[m[0K[77D[2B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [905ms][m[37D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [1s][m[0K[34D[3B[1m> :modules:core:compileJava > Resolve dependencies of :modules:core:checkerFram[m[79D[2B[2A[1m> :modules:core:compileJava > Resolve files of :modules:core:checkerFramework[m[0K[77D[2B[2A[1m> :modules:core:compileJava[m[0K[27D[2B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [2s][m[34D[5B[5A[0K
+[5A[1m<[0;32;1m==[0;39;1m-----------> 19% EXECUTING [1s][m[0K[34D[1B[1m> :modules:appium:processResources[m[34D[1B[1m> :modules:clear-with-shortcut:processResources[m[47D[1B[1m> :modules:error-message-customizer:processResources[m[52D[1B[1m> :modules:core:compileJava[m[27D[1B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [1s][m[34D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B[1m> :modules:core:compileJava > Resolve dependencies of :modules:core:compileClas[m[79D[1B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [2s][m[34D[5B[1A[1m> :modules:core:compileJava > Resolve files of :modules:core:compileClasspath[m[0K[77D[1B[1A[1m> :modules:core:compileJava > Resolve dependencies of :modules:core:checkerFram[m[79D[1B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [3s][m[34D[5B[1A[1m> :modules:core:compileJava > Resolve files of :modules:core:checkerFramework[m[0K[77D[1B[1A[1m> :modules:core:compileJava[m[0K[27D[1B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [4s][m[34D[5B[5A[0K
 [1m> Task :modules:core:compileJava[m[0K
 Jabel: initialized[0K
 [2B[0K
 [0K
 [0K
-[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [2s][m[34D[1B> IDLE[6D[1B> IDLE[6D[1B[1m> :modules:core:compileJava[m[27D[1B> IDLE[6D[1B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [3s][m[34D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [4s][m[34D[5B/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/JavaScript.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [4s][m[34D[1B> IDLE[0K[6D[1B> IDLE[6D[1B> IDLE[6D[1B[1m> :modules:core:compileJava[m[27D[1B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [5s][m[34D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [6s][m[34D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [7s][m[34D[5B/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/JavaScript.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
       .orElseThrow(() -> new IllegalArgumentException("Context is not JS-aware: " + context));
                   ^
 /tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/JavaScript.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
@@ -254,7 +256,7 @@ Jabel: initialized[0K
 /tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/ScreenShotLaboratory.java:429: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
   private Optional<Screenshot> lastScreenshot(@Nullable List<Screenshot> screenshots) {
                                ^
-/Us[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [5s][m[34D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [6s][m[34D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [7s][m[34D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [7s][m[34D[2B[1m> :modules:core:jar[m[19D[1B[1m> :statics:compileJava[m[0K[22D[2B[5A[1m<[0;32;1m======[0;39;1m-------> 47% EXECUTING [8s][m[34D[2B> IDLE[0K[6D[3B[5A[1m<[0;32;1m======[0;39;1m-------> 47% EXECUTING [9s][m[34D[5Bers/yoo/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/ScreenShotLaboratory.java:429: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/Us[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [8s][m[34D[5Bers/yoo/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/ScreenShotLaboratory.java:429: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
   private Optional<Screenshot> lastScreenshot(@Nullable List<Screenshot> screenshots) {
                                ^
 /tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/ScreenShotLaboratory.java:431: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
@@ -317,12 +319,408 @@ Jabel: initialized[0K
 /tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
       if (fileName.isPresent()) {
                             ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (fileName.isPresent()) {
+                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFileNameFromContentDisposition(Collection<Map.Entry<String, String>> headers) {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return fileName;
+               ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:40: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFileNameFromContentDisposition(Collection<Map.Entry<String, String>> headers) {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFileNameFromContentDisposition(String headerName, @Nullable String headerValue) {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFileNameFromContentDisposition(String headerName, @Nullable String headerValue) {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFileNameFromContentDisposition(String headerName, @Nullable String headerValue) {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFileNameFromContentDisposition(String headerName, @Nullable String headerValue) {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(new String(Base64.getDecoder().decode(filename), UTF_8));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new String(Base64.getDecoder().decode(filename), UTF_8));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new String(Base64.getDecoder().decode(filename), UTF_8));
+                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<String> getFileNameFromContentDisposition(String headerName, @Nullable String headerValue) {
+                          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(filename);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(filename);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/HttpHelper.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(filename);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Downloads.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<DownloadedFile> firstMatchingFile(FileFilter fileFilter) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Downloads.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<DownloadedFile> firstMatchingFile(FileFilter fileFilter) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Downloads.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return files.stream().filter(fileFilter::match).sorted(new DownloadDetector()).findFirst();
+                                                                                            ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Downloads.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+      .orElseThrow(() -> new FileNotFoundException(String.format("Failed to download file%s in %d ms.",
+                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Downloads.java:82: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+      .orElseThrow(() -> new FileNotFoundException(String.format("Failed to download file%s in %d ms.",
+      ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/FilteringCollection.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+      .orElseThrow(() -> new IndexOutOfBoundsException("Index: " + index));
+                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/FilteringCollection.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+      .orElseThrow(() -> new IndexOutOfBoundsException("Index: " + index));
+      ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/proxy/FileDownloadFilter.java:133: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+      .orElseGet(() -> {
+                ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/proxy/FileDownloadFilter.java:133: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+      .orElseGet(() -> {
+      ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/proxy/FileDownloadFilter.java:132: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+      .map(httpHelper::normalize)
+          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/proxy/FileDownloadFilter.java:132: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+      .map(httpHelper::normalize)
+      ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/DownloadFileToFolder.java:182: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    long lastFileUpdate = folder.lastModificationTime().orElse(-1L);
+                                                              ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/DownloadFileToFolder.java:182: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    long lastFileUpdate = folder.lastModificationTime().orElse(-1L);
+                                                       ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:19: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public <T> Optional<T> ofType(@Nonnull Class<T> klass) {
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:19: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public <T> Optional<T> ofType(@Nonnull Class<T> klass) {
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    if (args == null) return Optional.empty();
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    if (args == null) return Optional.empty();
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    if (args == null) return Optional.empty();
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:19: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public <T> Optional<T> ofType(@Nonnull Class<T> klass) {
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.of((T) arg);
+                          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of((T) arg);
+                          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:25: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+        return Optional.of((T) arg);
+                       ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:19: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public <T> Optional<T> ofType(@Nonnull Class<T> klass) {
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:27: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+      .orElseGet(() ->
+                ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          .orElse(defaultTimeout)
+                 ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          .orElse(defaultTimeout)
+          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        ofType(HasTimeout.class).map(HasTimeout::timeout).map(Duration::toMillis)
+                                                             ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        ofType(HasTimeout.class).map(HasTimeout::timeout).map(Duration::toMillis)
+                                                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        ofType(HasTimeout.class).map(HasTimeout::timeout).map(Duration::toMillis)
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        ofType(HasTimeout.class).ma[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [9s][m[34D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [10s][m[35D[5Bp(HasTimeout::timeout).map(Duration::toMillis)
+                                ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:44: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+      .orElseGet(() ->
+      ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+    return ofType(Duration.class).map(Duration::toMillis)
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java:43: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+    return ofType(Duration.class).map(Duration::toMillis)
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/junit5/TextReportExtension.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (onFailedTest && context.getExecutionException().isPresent()) {
+                                                                 ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/junit5/TextReportExtension.java:64: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (onFailedTest && context.getExecutionException().isPresent()) {
+                                                       ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+      .ifPresent(profile -> options.setProfile(profile));
+                ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:73: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+      .ifPresent(profile -> options.setProfile(profile));
+      ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  protected Optional<FirefoxProfile> transferFirefoxProfileFromSystemProperties(FirefoxOptions firefoxOptions) {
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  protected Optional<FirefoxProfile> transferFirefoxProfileFromSystemProperties(FirefoxOptions firefoxOptions) {
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:146: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:146: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:146: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:149: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+    FirefoxProfile profile = Optional.ofNullable(firefoxOptions.getProfile()).orElseGet(FirefoxProfile::new);
+                                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:149: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+    FirefoxProfile profile = Optional.ofNullable(firefoxOptions.getProfile()).orElseGet(FirefoxProfile::new);
+                                                                             ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:149: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    FirefoxProfile profile = Optional.ofNullable(firefoxOptions.getProfile()).orElseGet(FirefoxProfile::new);
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:149: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    FirefoxProfile profile = Optional.ofNullable(firefoxOptions.getProfile()).orElseGet(FirefoxProfile::new);
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:143: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  protected Optional<FirefoxProfile> transferFirefoxProfileFromSystemProperties(FirefoxOptions firefoxOptions) {
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.of(profile);
+                      ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+    return Optional.of(profile);
+                      ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/webdriver/FirefoxDriverFactory.java:156: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+    return Optional.of(profile);
+                   ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeRule.java:14: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(new AncestorResult(xpath));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeRule.java:14: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new AncestorResult(xpath));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeRule.java:14: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new AncestorResult(xpath));
+                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeRule.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeRule.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeRule.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRule.java:6: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  Optional<AncestorResult> evaluate(String selector, int index);
+                           ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithClassRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithClassRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithClassRule.java:17: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(new AncestorResult(xpath));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithClassRule.java:17: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new AncestorResult(xpath));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithClassRule.java:17: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new AncestorResult(xpath));
+                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithClassRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithClassRule.java:19: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithClassRule.java:19: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithClassRule.java:19: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRuleEngine.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+      .orElseThrow(() -> new IllegalArgumentException("Selector does not match any rule"));
+                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRuleEngine.java:22: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
+      .orElseThrow(() -> new IllegalArgumentException("Selector does not match any rule"));
+      ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRuleEngine.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      .flatMap(optional -> optional.map(Stream::of).orElseGet(Stream::empty))
+               ^
+warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRuleEngine.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+      .flatMap(optional -> optional.map(Stream::of).orElseGet(Stream::empty))
+                                                             ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRuleEngine.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElseGet(java.util.function.Supplier<? extends T>) [METHOD]
+      .flatMap(optional -> optional.map(Stream::of).orElseGet(Stream::empty))
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRuleEngine.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+      .flatMap(optional -> optional.map(Stream::of).orElseGet(Stream::empty))
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRuleEngine.java:20: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+      .flatMap(optional -> optional.map(Stream::of).orElseGet(Stream::empty))
+                                   ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorRuleEngine.java:19: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      .map(rule -> rule.evaluate(selector, index))
+                                ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeAndValueRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeAndValueRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeAndValueRule.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(new AncestorResult(xpath));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeAndValueRule.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new AncestorResult(xpath));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeAndValueRule.java:16: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new AncestorResult(xpath));
+                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeAndValueRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeAndValueRule.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeAndValueRule.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithAttributeAndValueRule.java:18: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithTagRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithTagRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithTagRule.java:13: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(new AncestorResult(xpath));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithTagRule.java:13: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new AncestorResult(xpath));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithTagRule.java:13: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(new AncestorResult(xpath));
+                     ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithTagRule.java:10: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<AncestorResult> evaluate(String selector, int index) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithTagRule.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithTagRule.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/ancestor/AncestorWithTagRule.java:15: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    long timeout = ofNullable(options.timeout()).map(Duration::toMillis).orElse(config.timeout());
+                                                                               ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    long timeout = ofNullable(options.timeout()).map(Duration::toMillis).orElse(config.timeout());
+                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+    long timeout = ofNullable(options.timeout()).map(Duration::toMillis).orElse(config.timeout());
+                                                    ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+    long timeout = ofNullable(options.timeout()).map(Duration::toMillis).orElse(config.timeout());
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:54: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    long timeout = ofNullable(options.timeout()).map(Duration::toMillis).orElse(config.timeout());
+                             ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    long incrementTimeout = ofNullable(options.incrementTimeout()).map(Duration::toMillis).orElse(timeout);
+                               [5A[1m<[0;32;1m=====[0;39;1m--------> 39% EXECUTING [11s][m[35D[5B[5A[1m<[0;32;1m=====[0;39;1m--------> 40% EXECUTING [11s][m[35D[3B[1m> :statics:compileJava > Resolve dependencies of :statics:compileClasspath[m[74D[1B[1m> :modules:core:processResources[m[32D[1B[5A[1m<[0;32;1m=====[0;39;1m--------> 45% EXECUTING [11s][m[35D[3B[1m> :statics:compileJava[m[0K[22D[1B[1m> :modules:core:sourcesJar[m[0K[26D[1B[5A[1m<[0;32;1m======[0;39;1m-------> 47% EXECUTING [11s][m[35D[4B> IDLE[0K[6D[1B[5A[1m<[0;32;1m======[0;39;1m-------> 47% EXECUTING [12s][m[35D[5B                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+    long incrementTimeout = ofNullable(options.incrementTimeout()).map(Duration::toMillis).orElse(timeout);
+                                                                                          ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+    long incrementTimeout = ofNullable(options.incrementTimeout()).map(Duration::toMillis).orElse(timeout);
+                                                                      ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+    long incrementTimeout = ofNullable(options.incrementTimeout()).map(Duration::toMillis).orElse(timeout);
+                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/commands/DownloadFile.java:55: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    long incrementTimeout = ofNullable(options.incrementTimeout()).map(Duration::toMillis).orElse(timeout);
+                                      ^
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: /tmp/experiments/optional-paper-counts-repos/selenide/src/main/java/com/codeborne/selenide/impl/Arguments.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
-100 warnings
-only showing the first 100 warnings, of 233 total; use -Xmaxwarns if you would like to see more
+233 warnings
 /tmp/experiments/optional-paper-counts-repos/selenide/statics/src/main/java/com/codeborne/selenide/impl/WebDriverThreadLocalContainer.java:135: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
     return getCurrentThreadDriver().map(driver -> driver.webDriver() != null).orElse(false);
                                                                                     ^
@@ -435,7 +833,53 @@ warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLAS
 /tmp/experiments/optional-paper-counts-repos/selenide/statics/src/main/java/com/codeborne/selenide/junit5/ScreenShooterExtension.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
     final Optional<Class<?>> testClass = context.getTestClass();
                              ^
-/tmp/experiments/optional-paper-counts-repos/selenide/statics/src/main/java/com/codeborne/selenide/junit5/ScreenShooterExtension.java:97: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/selenide/statics/src/main/java/com/codeborne/selenide/junit5/ScreenShooterExtension.java:97: warning: [usage] Usa[5A[0K
+[1m> Task :statics:compileJava[m[0K
+Jabel: initialized[0K
+[2B[0K
+[0K
+[0K
+[5A[1m<[0;32;1m======[0;39;1m-------> 48% EXECUTING [13s][m[35D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B[5A[1m<[0;32;1m======[0;39;1m-------> 53% EXECUTING [13s][m[35D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:error-message-customizer:compileJava[m[47D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:clear-with-shortcut:compileJava[m[42D[1B[5A[1m<[0;32;1m======[0;39;1m-------> 53% EXECUTING [14s][m[35D[5B[5A[0K
+[1m> Task :modules:appium:compileJava[m[0K
+Jabel: initialized[0K
+[2B[0K
+[0K
+[0K
+[5A[1m<[0;32;1m======[0;39;1m-------> 53% EXECUTING [15s][m[35D[1B[1m> :modules:full-screenshot:compileJava[m[0K[38D[1B[1m> :modules:error-message-customizer:compileJava[m[47D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:clear-with-shortcut:compileJava[m[42D[1B[5A[0K
+[1m> Task :modules:clear-with-shortcut:compileJava[m[0K
+Jabel: initialized[0K
+[0K
+[1m> Task :modules:full-screenshot:compileJava[m[0K
+Jabel: initialized
+[0K
+[0K
+[0K
+[0K
+[0K
+[5A[1m<[0;32;1m=======[0;39;1m------> 59% EXECUTING [15s][m[35D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:error-message-customizer:compileJava[m[47D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:junit4:compileJava[m[29D[1B[5A[1m<[0;32;1m=======[0;39;1m------> 59% EXECUTING [16s][m[35D[5B[5A[0K
+[1m> Task :modules:proxy:compileJava[m[0K
+Jabel: initialized[0K
+[0K
+[1m> Task :modules:error-message-customizer:compileJava[m[0K
+Jabel: initialized
+[0K
+[0K
+[0K
+[0K
+[0K
+[5A[1m<[0;32;1m========[0;39;1m-----> 65% EXECUTING [16s][m[35D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:error-message-customizer:compileJava[m[47D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:junit4:compileJava[m[29D[1B[5A[0K
+[1m> Task :modules:junit4:compileJava[m[0K
+Jabel: initialized[0K
+[2B[0K
+[0K
+[0K
+[5A[1m<[0;32;1m=========[0;39;1m----> 69% EXECUTING [17s][m[35D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:testng:compileJava[m[29D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:junit4:compileJava[m[29D[1B[5A[0K
+[1m> Task :modules:selenoid:compileJava[m[0K
+Jabel: initialized[0K
+[2B[0K
+[0K
+[0K
+[5A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [17s][m[35D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:testng:compileJava[m[29D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:selenoid:compileJava[m[31D[1B[5A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [18s][m[35D[5Bge of java.util.Optional [CLASS] by java.util.Optional [CLASS]
     final Optional<Class<?>> testClass = context.getTestClass();
                                                              ^
 /tmp/experiments/optional-paper-counts-repos/selenide/statics/src/main/java/com/codeborne/selenide/junit5/ScreenShooterExtension.java:98: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
@@ -460,37 +904,7 @@ warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLAS
     final String methodName = testMethod.map(Method::getName).orElse("emptyMethod");
                                                                     ^
 /tmp/experiments/optional-paper-counts-repos/selenide/statics/src/main/java/com/codeborne/selenide/junit5/ScreenShooterExtension.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
-    final String methodN[5A[0K
-[1m> Task :statics:compileJava[m[0K
-Jabel: initialized[0K
-[2B[0K
-[0K
-[0K
-[5A[1m<[0;32;1m======[0;39;1m-------> 53% EXECUTING [9s][m[34D[1B[1m> :modules:junit4:compileJava[m[29D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:error-message-customizer:compileJava[m[47D[1B[1m> :modules:proxy:compileJava > Resolve files of :modules:proxy:compileClasspath[m[79D[1B[1A[1m> :modules:proxy:compileJava[m[0K[28D[1B[5A[1m<[0;32;1m======[0;39;1m-------> 53% EXECUTING [10s][m[35D[5B[5A[0K
-[1m> Task :modules:proxy:compileJava[m[0K
-Jabel: initialized[0K
-[2B[0K
-[0K
-[0K
-[5A[1m<[0;32;1m=======[0;39;1m------> 59% EXECUTING [10s][m[0K[35D[1B[1m> :modules:junit4:compileJava[m[29D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:error-message-customizer:compileJava[m[47D[1B[1m> :modules:clear-with-shortcut:compileJava[m[42D[1B[5A[1m<[0;32;1m=======[0;39;1m------> 59% EXECUTING [11s][m[35D[5B[5A[0K
-[1m> Task :modules:error-message-customizer:compileJava[m[0K
-Jabel: initialized[0K
-[2B[0K
-[0K
-[0K
-[5A[1m<[0;32;1m========[0;39;1m-----> 63% EXECUTING [11s][m[0K[35D[1B[1m> :modules:junit4:compileJava[m[0K[29D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:clear-with-shortcut:compileJava[m[42D[1B[5A[0K
-[1m> Task :modules:junit4:compileJava[m[0K
-Jabel: initialized[0K
-[2B[0K
-[0K
-[0K
-[5A[1m<[0;32;1m========[0;39;1m-----> 65% EXECUTING [11s][m[35D[1B[1m> :modules:selenoid:compileJava[m[0K[31D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:clear-with-shortcut:compileJava[m[42D[1B[5A[0K
-[1m> Task :modules:full-screenshot:compileJava[m[0K
-Jabel: initialized[0K
-[2B[0K
-[0K
-[0K
-[5A[1m<[0;32;1m=========[0;39;1m----> 69% EXECUTING [11s][m[35D[1B[1m> :modules:selenoid:compileJava[m[0K[31D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:clear-with-shortcut:compileJava[m[42D[1Bame = testMethod.map(Method::getName).orElse("emptyMethod");
+    final String methodName = testMethod.map(Method::getName).orElse("emptyMethod");
                                                              ^
 /tmp/experiments/optional-paper-counts-repos/selenide/statics/src/main/java/com/codeborne/selenide/junit5/ScreenShooterExtension.java:101: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
     final String methodName = testMethod.map(Method::getName).orElse("emptyMethod");
@@ -527,13 +941,25 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: /tmp/experiments/optional-paper-counts-repos/selenide/statics/src/main/java/com/codeborne/selenide/Selenide.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 57 warnings
+Note: /tmp/experiments/optional-paper-counts-repos/selenide/modules/testng/src/main/java/com/codeborne/selenide/testng/TextReport.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/WebdriverUnwrapper.java:26: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
     return cast(driver, klass).isPresent();
                                         ^
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/WebdriverUnwrapper.java:26: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
     return cast(driver, klass).isPresent();
                               ^
-/tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/WebdriverUnwrapper.java:30: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/WebdriverUnwrapper.java:30: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPr[5A[0K
+[1m> Task :modules:testng:compileJava[m[0K
+Jabel: initialized[0K
+[0K
+[1m> Task :modules:appium:compileJava[m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[5A[1m<[0;32;1m==========[0;39;1m---> 81% EXECUTING [18s][m[35D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B> IDLE[6D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:selenoid:compileJava[m[31D[1Besent() [METHOD]
     return cast(driver, klass).isPresent();
                                         ^
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/WebdriverUnwrapper.java:30: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
@@ -566,18 +992,7 @@ Note: Recompile with -Xlint:unchecked for details.
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/WebdriverUnwrapper.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
       Optional.of((T) unwrappedWebdriver) :
                  ^
-/tmp/ex[5A[0K
-[1m> Task :modules:clear-with-shortcut:compileJava[m[0K
-Jabel: initialized[0K
-[0K
-[1m> Task :modules:appium:compileJava[m[0K
-Jabel: initialized
-[0K
-[0K
-[0K
-[0K
-[0K
-[5A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [11s][m[35D[1B[1m> :modules:selenoid:compileJava[m[31D[1B[1m> :modules:full-screenshot:compileJava[m[38D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:testng:compileJava[m[29D[1Bperiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/WebdriverUnwrapper.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+/tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/WebdriverUnwrapper.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
       Optional.of((T) unwrappedWebdriver) :
               ^
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/WebdriverUnwrapper.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
@@ -688,7 +1103,11 @@ Jabel: initialized
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/full-screenshot/src/main/java/com/codeborne/selenide/fullscreenshot/FullSizePhotographer.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
         Optional.empty(),
                       ^
-/tmp/experiments/optional-paper-counts-repos/selenide/modules/full-screenshot/src/main/java/com/codeborne/selenide/fullscreenshot/FullSizePhotographer.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/option[5A[0K
+[1m> Task :modules:full-screenshot:compileJava[m[0K
+[3B[0K
+[0K
+[5A[1m<[0;32;1m===========[0;39;1m--> 87% EXECUTING [18s][m[35D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B[1m> :modules:appium:compileJava[m[29D[1B[1m> :modules:selenoid:compileJava[m[31D[1B[5A[1m<[0;32;1m============[0;39;1m-> 93% EXECUTING [18s][m[35D[4B> IDLE[0K[6D[1B[5A[1m<[0;32;1m============[0;39;1m-> 93% EXECUTING [19s][m[35D[5Bal-paper-counts-repos/selenide/modules/full-screenshot/src/main/java/com/codeborne/selenide/fullscreenshot/FullSizePhotographer.java:105: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
         Optional.empty(),
                 ^
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/full-screenshot/src/main/java/com/codeborne/selenide/fullscreenshot/FullSizePhotographer.java:106: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
@@ -718,20 +1137,7 @@ Jabel: initialized
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/full-screenshot/src/main/java/com/codeborne/selenide/fullscreenshot/FullSizePhotographer.java:108: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
         Optional.of(options.exceedViewport()),
                 ^
-/tmp/experiments/optional-paper-counts-repos/selenide/modules/full-screenshot/src/main/java/com/codeborne/selenide/fullscreenshot/FullSizePhotographer.java:109: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS[5A[0K
-[1m> Task :modules:full-screenshot:compileJava[m[0K
-[0K
-[1m> Task :modules:testng:compileJava[m[0K
-Jabel: initialized[0K
-
-[1m> Task :modules:selenoid:compileJava[m
-Jabel: initialized
-[0K
-[0K
-[0K
-[0K
-[0K
-[5A[1m<[0;32;1m===========[0;39;1m--> 87% EXECUTING [11s][m[35D[1B[1m> :modules:selenoid:compileJava[m[31D[1B> IDLE[6D[1B[1m> :modules:appium:compileJava[m[29D[1B> IDLE[6D[1B[5A[1m<[0;32;1m============[0;39;1m-> 93% EXECUTING [12s][m[35D[1B> IDLE[0K[6D[4B]
+/tmp/experiments/optional-paper-counts-repos/selenide/modules/full-screenshot/src/main/java/com/codeborne/selenide/fullscreenshot/FullSizePhotographer.java:109: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         Optional.of(true)
                    ^
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/full-screenshot/src/main/java/com/codeborne/selenide/fullscreenshot/FullSizePhotographer.java:109: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
@@ -768,8 +1174,6 @@ Jabel: initialized
     return Optional.of(screenshot);
                    ^
 52 warnings
-Note: /tmp/experiments/optional-paper-counts-repos/selenide/modules/testng/src/main/java/com/codeborne/selenide/testng/TextReport.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/AppiumDriverRunner.java:23: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<X>orElseThrow(java.util.function.Supplier<? extends X>) [METHOD]
       .orElseThrow(() -> new ClassCastException("WebDriver cannot be casted to AndroidDriver"));
                   ^
@@ -938,23 +1342,7 @@ Note: Recompile with -Xlint:deprecation for details.
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/AppiumClipboard.java:47: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
       .map(HasClipboard::getClipboardText)
       ^
-/tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/AppiumClipboard.jav[5A[0K
-[1m> Task :modules:appium:compileJava[m[0K
-[0K
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.[0K
-[0K
-You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
-
-For more on this, please refer to https://docs.gradle.org/8.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
-
-[32;1mBUILD SUCCESSFUL[0;39m in 12s
-58 actionable tasks: 58 executed
-[0K
-[0K
-[0K
-[0K
-[0K
-[5A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B> IDLE[6D[1B[1m> :modules:appium:compileJava[m[29D[1B> IDLE[6D[1Ba:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/AppiumClipboard.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
     Optional<HasClipboard> mobileDriver = getWebDriver();
                            ^
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/AppiumClipboard.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
@@ -999,7 +1387,23 @@ For more on this, please refer to https://docs.gradle.org/8.3/userguide/command_
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/SelenideAppiumPageFactory.java:49: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
     if (hasBrowserCheck.isPresent() && hasBrowserCheck.get().isBrowser()) {
                                                       ^
-/tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/SelenideAppiumPageFactory.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/SelenideAppiumPageFactory.[5A[0K
+[1m> Task :modules:appium:compileJava[m[0K
+[0K
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.[0K
+[0K
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+[32;1mBUILD SUCCESSFUL[0;39m in 19s
+58 actionable tasks: 58 executed
+[0K
+[0K
+[0K
+[0K
+[0K
+[5A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B> IDLE[6D[1B[1m> :modules:appium:compileJava[m[29D[1B> IDLE[6D[1B[2A> IDLE[0K[6D[2Bjava:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
     Optional<HasCapabilities> hasCapabilities = cast(driver, HasCapabilities.class);
                               ^
 /tmp/experiments/optional-paper-counts-repos/selenide/modules/appium/src/main/java/com/codeborne/selenide/appium/SelenideAppiumPageFactory.java:53: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]

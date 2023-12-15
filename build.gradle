@@ -31,6 +31,7 @@ subprojects {
       '-AwarnUnneededSuppressions',
       '-AassumeAssertionsAreEnabled',
       '-AReportChecker_warns',
+      "-Xmaxwarns", "99999",
       "-Astubs=${project.projectDir}/reportoptional.astub"
      ]
      excludeTests = true
@@ -57,8 +58,3 @@ apply from: 'gradle/javadoc.gradle'
 
 defaultTasks 'check', 'publishToMavenLocal'
 
-afterEvaluate {
-    tasks.withType(JavaCompile) {
-        options.compilerArgs << "-Xmaxwarns" << "99999"
-    }
-}
