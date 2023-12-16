@@ -1,6 +1,6 @@
 ./gradlew spotbugsMain
 Configuration on demand is an incubating feature.
-Path for java installation '/Users/yoo/Library/Java/JavaVirtualMachines/azul-15.0.5/Contents/Home' (IntelliJ IDEA) does not contain a java executable
+Path for java installation '/Library/Java/JavaVirtualMachines/azul-15.0.5/Contents/Home' (IntelliJ IDEA) does not contain a java executable
 
 > Task :modules:junit4:spotbugsMain
 M V EI2: com.codeborne.selenide.junit.SoftAsserts.apply(Statement, Description) may expose internal representation by storing an externally mutable object into SoftAsserts.currentTest  At SoftAsserts.java:[line 38]
